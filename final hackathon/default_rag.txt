@@ -1,0 +1,2 @@
+WCAG 2.1: Use high contrast ratios. Ensure keyboard navigation. Support voice commands.
+UI Best Practices: Map 'Tap Start' to navigate to main screen.

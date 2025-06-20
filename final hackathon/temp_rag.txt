@@ -1,0 +1,47 @@
+﻿# Guidelines and Best Practices for Input-Response Mapping in App Prototype Simulation
+
+
+## Overview
+The Input-Response Mapping Agent maps user inputs (e.g., taps, swipes, voice commands) to app state changes for a given app purpose and user scenario. The agent generates a text-based map, categorizes onscreen and offscreen changes, and produces a trigger-action-state schema in JSON format. The output incorporates best practices for interactive mobile and web behavior.
+
+
+## Input Types
+- Touch Inputs: Taps, swipes, pinches, long presses. Example: Tap on "Book" button, swipe left to delete an item.
+- Voice Commands: Spoken instructions. Example: "Schedule a meeting" or "Start meditation session".
+- Keyboard Inputs: Key presses for navigation or form submission. Example: Press Enter to submit a form, Tab to navigate buttons.
+- Gesture Inputs: Device-specific gestures. Example: Shake device to undo an action.
+
+
+## State Change Categories
+- Onscreen Changes: Visual updates to the UI. Example: Navigating to a new screen, showing a date picker, updating a list.
+- Offscreen Changes: Non-visual updates. Example: Triggering an audio cue (e.g., chime for success), updating a database, sending a notification.
+
+
+## Best Practices for Mobile Interaction Behavior
+- Immediate Feedback: Provide visual or auditory feedback within 100ms of user input. Example: Highlight button on tap, play a click sound.
+- Tap Target Size: Ensure tap targets are at least 48x48 pixels for accessibility. Example: "Add Task" button should be large enough for easy tapping.
+- Gesture Simplicity: Use single-tap or single-swipe for primary actions. Example: Tap to open a form, swipe to navigate to the next screen.
+- Error Handling: Display clear error messages for invalid inputs. Example: Show a toast message "Invalid date selected" if the user picks a past date.
+- Voice Command Support: Allow voice inputs for primary actions, especially for accessibility. Example: "Book appointment" should trigger the same action as tapping "Book".
+- Animation Transitions: Use smooth transitions (e.g., 300ms fade) for screen changes to enhance user experience. Example: Fade in the Calendar Screen after tapping "Book".
+
+
+## Best Practices for Web Interaction Behavior
+- Keyboard Navigation: Ensure all interactive elements are focusable via Tab key. Example: "Submit" button should be reachable and activatable with Enter.
+- Hover Feedback: Provide visual feedback for hover states. Example: Change button background to a darker shade (e.g., #0055CC) on hover.
+- Form Submission: Validate inputs client-side before submission. Example: Disable "Submit" until all required fields are valid.
+- Progressive Disclosure: Show additional UI elements only when needed. Example: Display a date picker only after the user clicks a "Select Date" button.
+- Consistent Navigation: Maintain consistent navigation patterns. Example: Place "Back" button in the top-left corner across all screens.
+
+
+## Trigger-Action-State Schema Examples
+- Example 1:
+  Input: Tap "Book"
+  Text Map: User taps "Book" -> Navigates to "Calendar Screen" -> Shows date picker
+  JSON Schema:
+  ```json
+  {
+    "trigger": "tap_book",
+    "action": "navigate",
+    "state": "calendar_screen"
+  }

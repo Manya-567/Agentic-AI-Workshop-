@@ -1,0 +1,3819 @@
+2025-06-20 15:24:39,292 - INFO - Use pytorch device_name: mps
+2025-06-20 15:24:39,292 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:24:44,140 - INFO - Created default RAG file.
+2025-06-20 15:24:44,311 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:24:44,439 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:24:56,052 - INFO - Use pytorch device_name: mps
+2025-06-20 15:24:56,053 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:24:59,455 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:24:59,455 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:24:59,537 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:25:01,122 - INFO - Use pytorch device_name: mps
+2025-06-20 15:25:01,122 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:25:04,798 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:25:04,798 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:25:04,845 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:25:06,362 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:07,283 - INFO - RAG Result: The state change for the input 'Tap 'Start Session'' is navigation to the `meditation_screen`.
+2025-06-20 15:25:08,795 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:09,516 - INFO - RAG Result: The state change for the input "Tap 'Start Session'" in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:25:11,042 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:11,890 - INFO - RAG Result: The state change for the input "Tap 'Start Session'" in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:25:13,453 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:14,217 - INFO - RAG Result: The state change for the input "Tap 'Start Session'" in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:25:15,984 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:16,701 - INFO - RAG Result: The state change for the input 'Tap 'Start Session'' is that the app navigates to the `meditation_screen`.
+2025-06-20 15:25:18,353 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:19,063 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:25:20,905 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:21,720 - INFO - RAG Result: The state change for the input 'Tap 'Start Session'' is that the app navigates to the `meditation_screen`.
+2025-06-20 15:25:23,250 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:25:23,972 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:25:24,381 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+].
+2025-06-20 15:25:26,737 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+])
+2025-06-20 15:31:13,753 - INFO - Use pytorch device_name: mps
+2025-06-20 15:31:13,753 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:31:19,811 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:31:19,941 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:31:29,415 - INFO - Use pytorch device_name: mps
+2025-06-20 15:31:29,415 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:31:32,943 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:31:32,944 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:31:33,086 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:31:34,953 - INFO - Use pytorch device_name: mps
+2025-06-20 15:31:34,953 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:31:38,824 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:31:38,824 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:31:38,877 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:31:41,758 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:43,767 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:31:45,302 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:46,123 - INFO - RAG Result: The state change for the input "Tap 'Start Session'" in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:31:47,842 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:48,580 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:31:50,219 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:50,976 - INFO - RAG Result: The state change for the input 'Tap 'Start Session'' in the Meditation App for Kids on mobile is navigation to the `meditation_screen`.
+2025-06-20 15:31:52,776 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:53,594 - INFO - RAG Result: The state change for the input "Tap 'Start Session'" in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:31:55,413 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:56,227 - INFO - RAG Result: The state change for the input "Tap 'Start Session'" in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:31:58,110 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:31:58,816 - INFO - RAG Result: The state change for the input 'Tap 'Start Session'' is navigation to the `meditation_screen`.
+2025-06-20 15:32:00,968 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:32:01,684 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:32:02,093 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+].
+2025-06-20 15:32:06,294 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:32:06,703 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+].
+2025-06-20 15:32:09,015 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+], delay: 5s
+2025-06-20 15:32:14,017 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:32:14,383 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+].
+2025-06-20 15:32:16,737 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+], delay: 10s
+2025-06-20 15:32:26,741 - INFO - RAG Query: State change for input 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:32:27,080 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+].
+2025-06-20 15:32:29,434 - ERROR - Quota exceeded after retries: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-06-20 15:32:29,842 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+].
+2025-06-20 15:32:32,306 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-06-20 15:36:15,355 - INFO - Use pytorch device_name: mps
+2025-06-20 15:36:15,355 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:36:19,028 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:36:19,150 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:36:26,582 - INFO - Use pytorch device_name: mps
+2025-06-20 15:36:26,583 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:36:29,869 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:36:29,869 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:36:29,952 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:36:35,723 - INFO - Use pytorch device_name: mps
+2025-06-20 15:36:35,723 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:36:39,605 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:36:39,605 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:36:39,661 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:36:42,339 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:43,185 - INFO - RAG Result: Tapping 'Start Session' navigates the user to the `meditation_screen`.
+2025-06-20 15:36:45,958 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:46,609 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:36:48,260 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:48,918 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:36:50,674 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:51,348 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:36:53,183 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:53,872 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:36:55,829 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:56,436 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:36:58,315 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:36:58,972 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:37:01,089 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:37:01,400 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+].
+2025-06-20 15:37:03,678 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+], delay: 30s
+2025-06-20 15:37:33,681 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:37:34,076 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+].
+2025-06-20 15:37:36,356 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+], delay: 30s
+2025-06-20 15:38:06,362 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids on Mobile
+2025-06-20 15:38:07,151 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:38:07,152 - ERROR - JSON Parse Error in Input-Response Mapping Agent: Expecting value: line 1 column 1 (char 0)
+2025-06-20 15:42:29,057 - INFO - Use pytorch device_name: mps
+2025-06-20 15:42:29,057 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:42:33,134 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:42:33,302 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:42:40,091 - INFO - Use pytorch device_name: mps
+2025-06-20 15:42:40,091 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:42:43,065 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:42:43,065 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:42:43,156 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:42:44,777 - INFO - Use pytorch device_name: mps
+2025-06-20 15:42:44,778 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:42:48,253 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:42:48,253 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:42:48,303 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:42:49,826 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:42:51,765 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:42:53,251 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:42:53,931 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:42:55,331 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:42:56,018 - INFO - RAG Result: Tapping 'Start Session' navigates to the `meditation_screen`.
+2025-06-20 15:42:57,435 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:42:58,125 - INFO - RAG Result: The state change for tapping 'Start Session' in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:42:59,693 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:43:00,418 - INFO - RAG Result: The state change for tapping 'Start Session' in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:43:01,980 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:43:02,689 - INFO - RAG Result: The state change for tapping 'Start Session' in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:43:04,212 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:43:04,970 - INFO - RAG Result: The state change for tapping 'Start Session' in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:43:06,475 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:43:07,196 - INFO - RAG Result: The state change for tapping 'Start Session' in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:43:08,691 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:43:09,004 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+].
+2025-06-20 15:43:11,635 - INFO - RAG Result: The state change for tapping 'Start Session' in the meditation app is navigation to the `meditation_screen`.
+2025-06-20 15:43:11,968 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+].
+2025-06-20 15:43:14,299 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-06-20 15:43:15,350 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+].
+2025-06-20 15:43:17,621 - ERROR - Quota exceeded for Accessible Interaction Designer Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+]
+2025-06-20 15:43:18,762 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+].
+2025-06-20 15:43:21,041 - ERROR - Quota exceeded for Semantic UI Behavior Generator Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-06-20 15:43:22,162 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+].
+2025-06-20 15:43:24,427 - ERROR - Quota exceeded for Prototype Wiring Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-06-20 15:43:25,557 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+].
+2025-06-20 15:43:27,821 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-06-20 15:47:08,830 - INFO - Use pytorch device_name: mps
+2025-06-20 15:47:08,830 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:47:14,268 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:47:14,405 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:47:20,858 - INFO - Use pytorch device_name: mps
+2025-06-20 15:47:20,858 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:47:23,873 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:47:23,874 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:47:23,967 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:47:26,191 - INFO - Use pytorch device_name: mps
+2025-06-20 15:47:26,191 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:47:29,597 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:47:29,597 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:47:29,646 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:47:32,280 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:33,058 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:34,546 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:35,255 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:36,594 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:37,269 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:38,656 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:39,299 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:40,988 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:41,613 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:43,163 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:43,818 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:45,326 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:45,965 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:47,674 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:47:48,304 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:47:48,621 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+].
+2025-06-20 15:47:50,946 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-06-20 15:47:52,023 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+].
+2025-06-20 15:47:55,474 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:47:56,110 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+].
+2025-06-20 15:47:58,380 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+], delay: 45s
+2025-06-20 15:48:43,383 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:48:46,046 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:48:48,501 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:48:51,247 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:48:54,044 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:48:56,707 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:48:59,782 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:49:02,507 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:49:05,403 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:49:05,689 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+].
+2025-06-20 15:49:07,959 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+], delay: 45s
+2025-06-20 15:49:52,961 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:49:53,745 - ERROR - JSON Parse Error in Accessible Interaction Designer Agent: Expecting value: line 1 column 1 (char 0)
+2025-06-20 15:49:55,473 - INFO - Generated UI blueprint
+2025-06-20 15:49:57,336 - INFO - Generated UI blueprint
+2025-06-20 15:50:00,325 - INFO - Generated UI blueprint
+2025-06-20 15:50:13,702 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+].
+2025-06-20 15:50:17,188 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+].
+2025-06-20 15:50:19,528 - ERROR - Quota exceeded for Semantic UI Behavior Generator Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-06-20 15:50:20,574 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+].
+2025-06-20 15:50:22,843 - ERROR - Quota exceeded for Prototype Wiring Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-06-20 15:50:23,980 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+].
+2025-06-20 15:50:26,250 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-06-20 15:51:49,126 - INFO - Use pytorch device_name: mps
+2025-06-20 15:51:49,126 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:51:53,114 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:51:53,326 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:52:04,466 - INFO - Use pytorch device_name: mps
+2025-06-20 15:52:04,466 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:52:06,078 - INFO - Use pytorch device_name: mps
+2025-06-20 15:52:06,078 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:52:09,871 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:52:09,871 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:52:09,964 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:52:12,569 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:14,544 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:17,301 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:17,967 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:19,434 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:20,090 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:21,572 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:22,191 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:23,891 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:24,567 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:26,274 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:26,887 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:28,767 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:29,376 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:31,305 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:31,942 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:34,028 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:34,691 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:36,613 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:37,263 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:39,264 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:39,882 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:41,992 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:42,661 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:44,749 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:45,429 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:47,295 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:47,964 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:49,836 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:50,450 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:52,728 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:53,445 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:52:55,357 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:52:55,670 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+].
+2025-06-20 15:52:57,940 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+], delay: 9s
+2025-06-20 15:53:06,945 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:07,244 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+].
+2025-06-20 15:53:09,504 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+], delay: 9s
+2025-06-20 15:53:18,507 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:18,838 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+].
+2025-06-20 15:53:21,109 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 38
+}
+], delay: 9s
+2025-06-20 15:53:30,115 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:30,429 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+].
+2025-06-20 15:53:32,997 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:34,883 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:35,189 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+].
+2025-06-20 15:53:37,792 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:40,161 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:40,837 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:42,875 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:43,495 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:45,489 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:46,137 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:48,186 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:48,817 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:50,894 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:51,497 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:54,056 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:54,671 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:56,670 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:57,291 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:53:59,376 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:53:59,680 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+].
+2025-06-20 15:54:01,938 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+], delay: 9s
+2025-06-20 15:54:10,942 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:54:11,254 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+].
+2025-06-20 15:54:13,522 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+], delay: 9s
+2025-06-20 15:54:22,525 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:54:22,942 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+].
+2025-06-20 15:54:25,299 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+], delay: 9s
+2025-06-20 15:54:34,305 - INFO - RAG Query: State change for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:54:35,024 - INFO - RAG Result: Tapping 'Start Session' causes a navigation to the `meditation_screen`.
+2025-06-20 15:54:35,026 - ERROR - JSON Parse Error in Input-Response Mapping Agent: Expecting value: line 1 column 1 (char 0)
+2025-06-20 15:54:36,385 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:38,816 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:41,274 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:43,433 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:45,765 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:48,288 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:50,806 - INFO - RAG Query: WCAG 2.1 strategies for  targeting 
+2025-06-20 15:54:51,967 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+].
+2025-06-20 15:54:54,379 - ERROR - Quota exceeded for Accessible Interaction Designer Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-06-20 15:54:56,653 - INFO - Generated UI blueprint
+2025-06-20 15:54:56,938 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+].
+2025-06-20 15:54:59,297 - ERROR - Quota exceeded for Semantic UI Behavior Generator Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-06-20 15:55:01,357 - INFO - Generated wiring flow
+2025-06-20 15:55:01,750 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+].
+2025-06-20 15:55:04,107 - ERROR - Quota exceeded for Prototype Wiring Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-06-20 15:55:05,232 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+].
+2025-06-20 15:55:07,503 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-06-20 15:59:39,480 - INFO - Use pytorch device_name: mps
+2025-06-20 15:59:39,480 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:59:43,518 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 15:59:43,704 - INFO - RAG vector store initialized with default file.
+2025-06-20 15:59:50,267 - INFO - Use pytorch device_name: mps
+2025-06-20 15:59:50,270 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:59:51,868 - INFO - Use pytorch device_name: mps
+2025-06-20 15:59:51,869 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 15:59:54,922 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 15:59:54,922 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 15:59:55,015 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 15:59:57,493 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 15:59:59,812 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names.
+2025-06-20 16:00:01,150 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:02,008 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the specific state names.
+2025-06-20 16:00:03,316 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:04,214 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This indicates a state change in the mobile app.  There is no further information about the state *before* tapping "Start Session".
+2025-06-20 16:00:05,697 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:06,580 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names.
+2025-06-20 16:00:08,259 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:09,171 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the state *before* tapping the button.
+2025-06-20 16:00:10,773 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:11,711 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state *before* tapping the button.
+2025-06-20 16:00:13,482 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:14,424 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the state *before* tapping the button.
+2025-06-20 16:00:16,254 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:17,081 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names.
+2025-06-20 16:00:17,412 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+].
+2025-06-20 16:00:21,224 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:00:22,156 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen` in a mobile app.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the specific state names.
+2025-06-20 16:00:22,495 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+].
+2025-06-20 16:00:24,828 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-06-20 16:00:25,882 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+].
+2025-06-20 16:00:28,151 - ERROR - Quota exceeded for Accessible Interaction Designer Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-06-20 16:00:29,262 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+].
+2025-06-20 16:00:32,670 - INFO - Generated UI blueprint
+2025-06-20 16:00:36,760 - ERROR - UI Blueprint Generation failed: Extra data: line 3 column 1 (char 273)
+2025-06-20 16:00:38,669 - ERROR - UI Blueprint Generation failed: Expecting value: line 1 column 1 (char 0)
+2025-06-20 16:00:40,192 - ERROR - UI Blueprint Generation failed: Expecting value: line 1 column 1 (char 0)
+2025-06-20 16:00:41,585 - ERROR - UI Blueprint Generation failed: Expecting value: line 1 column 1 (char 0)
+2025-06-20 16:00:52,648 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+].
+2025-06-20 16:00:54,965 - ERROR - Quota exceeded for Semantic UI Behavior Generator Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-06-20 16:00:56,038 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+].
+2025-06-20 16:00:58,305 - ERROR - Quota exceeded for Prototype Wiring Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-06-20 16:01:01,464 - ERROR - Documentation Generation failed: Expecting value: line 1 column 1 (char 0)
+2025-06-20 16:01:01,745 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+].
+2025-06-20 16:01:04,030 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-06-20 16:13:56,730 - INFO - Use pytorch device_name: mps
+2025-06-20 16:13:56,730 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:14:00,963 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 16:14:02,382 - INFO - RAG vector store initialized with default file.
+2025-06-20 16:14:17,006 - INFO - Use pytorch device_name: mps
+2025-06-20 16:14:17,006 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:14:19,941 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 16:14:19,941 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 16:14:20,951 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 16:14:21,967 - INFO - Use pytorch device_name: mps
+2025-06-20 16:14:21,967 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:14:24,829 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 16:14:24,829 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 16:14:24,882 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 16:14:26,208 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:27,373 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the specific state names.
+2025-06-20 16:14:28,753 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:29,677 - INFO - RAG Result: The provided text only shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  It doesn't describe the state *before* tapping the button.  Therefore, I don't know the state before tapping 'Start Session'.
+2025-06-20 16:14:30,955 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:31,925 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names before and after the tap.
+2025-06-20 16:14:33,355 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:34,212 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names.
+2025-06-20 16:14:35,710 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:36,727 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information to determine a more specific "state" for the "Tap 'Start Session'" action itself.
+2025-06-20 16:14:38,330 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:39,184 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This describes the effect of the action, not the state.  There is no information about the state *before* tapping "Start Session".
+2025-06-20 16:14:40,890 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:41,844 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen` in a mobile app.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the specific state names.
+2025-06-20 16:14:43,518 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:44,509 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names.
+2025-06-20 16:14:46,105 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:46,456 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+].
+2025-06-20 16:14:48,808 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+], delay: 9s
+2025-06-20 16:14:57,814 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:14:58,180 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+].
+2025-06-20 16:15:00,471 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+], delay: 9s
+2025-06-20 16:15:09,476 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:09,800 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+].
+2025-06-20 16:15:12,155 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+], delay: 9s
+2025-06-20 16:15:21,161 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:21,680 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 38
+}
+].
+2025-06-20 16:15:24,037 - ERROR - Quota exceeded after retries: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-06-20 16:15:25,883 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:26,906 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the state *before* tapping "Start Session".
+2025-06-20 16:15:28,750 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:29,668 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the "Start Session" button is on, to the `meditation_screen`.
+2025-06-20 16:15:31,428 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:32,340 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names before and after the tap.
+2025-06-20 16:15:34,279 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:35,270 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen` in a mobile app.  This implies the state change is from whatever screen the button is on, to the `meditation_screen`.  There is no further information about the specific state names.
+2025-06-20 16:15:37,051 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:37,964 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This is a state change within the mobile app.  There's no further information about the state *before* tapping "Start Session".
+2025-06-20 16:15:39,715 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:40,625 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There's no further information about the specific state names.
+2025-06-20 16:15:42,422 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:43,374 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on to the `meditation_screen`.  There is no further information about the state *before* tapping "Start Session".
+2025-06-20 16:15:45,228 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:15:46,157 - INFO - RAG Result: The provided text shows that tapping "Start Session" causes a navigation to the `meditation_screen`.  This implies the state change is from whatever screen the button is on, to the `meditation_screen`.  There is no further information about the specific state names.
+2025-06-20 16:15:46,640 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+].
+2025-06-20 16:15:49,228 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-06-20 16:15:50,045 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+].
+2025-06-20 16:15:52,320 - ERROR - Quota exceeded for AccessibleInteractionDesignerAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-06-20 16:15:53,444 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+].
+2025-06-20 16:15:55,721 - ERROR - Quota exceeded for SemanticUIBlueprintAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-06-20 16:15:56,910 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+].
+2025-06-20 16:15:59,962 - ERROR - Prototype Wiring failed: Expecting value: line 1 column 1 (char 0)
+2025-06-20 16:16:00,316 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+].
+2025-06-20 16:16:02,578 - ERROR - Quota exceeded for PrototypeWiringAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-20 16:16:03,703 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+].
+2025-06-20 16:16:05,967 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-06-20 16:21:22,494 - INFO - Use pytorch device_name: mps
+2025-06-20 16:21:22,494 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:21:28,158 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 16:21:29,576 - INFO - RAG vector store initialized with default file.
+2025-06-20 16:21:36,854 - INFO - Use pytorch device_name: mps
+2025-06-20 16:21:36,855 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:21:39,701 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 16:21:39,701 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 16:21:40,726 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 16:21:42,000 - INFO - Use pytorch device_name: mps
+2025-06-20 16:21:42,000 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:21:46,444 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 16:21:46,444 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 16:21:46,499 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 16:21:49,031 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:21:51,400 - INFO - RAG Result: Based on the provided text, the best practice for a "Tap 'Start Session'" action in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility, and that tapping it initiates the meditation session immediately.  The app should also provide immediate feedback, such as a visual or auditory cue, to confirm that the session has started.
+2025-06-20 16:21:53,013 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:21:54,084 - INFO - RAG Result: Based on the provided text, the best practice for a "Tap 'Start Session'" action in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility, and to provide immediate feedback (e.g., a chime sound) after the tap.  The action itself should be a simple single tap.
+2025-06-20 16:21:55,808 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:21:56,903 - INFO - RAG Result: Based on the provided text, the best practice for a "Tap 'Start Session'" action in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility, and to provide immediate feedback (e.g., a chime sound) after the tap.  The action itself should be a simple single tap.
+2025-06-20 16:21:58,458 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:21:59,482 - INFO - RAG Result: Based on the provided text, the best practice for a "Tap 'Start Session'" action in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility, and to provide immediate feedback (e.g., a chime sound) after the tap.  The action itself should be a simple single tap.
+2025-06-20 16:22:01,201 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:22:02,290 - INFO - RAG Result: Based on the provided text, the best practice for a touch input "Tap 'Start Session'" in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility and to provide immediate feedback (e.g., a chime sound) after the tap.  The action should be a simple single tap.
+2025-06-20 16:22:04,142 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:22:05,301 - INFO - RAG Result: Based on the provided text, the best practice for a "Tap 'Start Session'" action in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility, and to provide immediate feedback (e.g., a chime sound) after the tap.  The action itself should be a simple single tap.
+2025-06-20 16:22:07,086 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:22:08,105 - INFO - RAG Result: Based on the provided text, the best practice for a touch input "Tap 'Start Session'" in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility and to provide immediate feedback (e.g., a chime sound) after the tap.  The action should be a simple single tap.
+2025-06-20 16:22:09,997 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:22:11,028 - INFO - RAG Result: Based on the provided text, the best practice for a touch input "Tap 'Start Session'" in a kids' meditation app would be to ensure the "Start Session" tap target is at least 48x48 pixels for accessibility and to provide immediate feedback (e.g., a chime sound) when the session starts.  The action should be a simple single tap.
+2025-06-20 16:22:11,381 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+].
+2025-06-20 16:22:13,739 - ERROR - Quota exceeded for InputResponseMappingAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-06-20 16:22:14,758 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+].
+2025-06-20 16:22:17,028 - ERROR - Quota exceeded for AccessibleInteractionDesignerAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-06-20 16:22:21,001 - ERROR - UI Blueprint Generation failed: Expecting value: line 1 column 1 (char 0)
+2025-06-20 16:22:21,282 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 38
+}
+].
+2025-06-20 16:22:23,557 - ERROR - Quota exceeded for SemanticUIBlueprintAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-06-20 16:22:24,665 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+].
+2025-06-20 16:22:26,929 - ERROR - Quota exceeded for PrototypeWiringAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-06-20 16:22:28,069 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+].
+2025-06-20 16:22:30,335 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-06-20 16:28:01,645 - INFO - Use pytorch device_name: mps
+2025-06-20 16:28:01,645 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:28:07,275 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 16:28:07,456 - INFO - RAG vector store initialized with default file.
+2025-06-20 16:28:14,061 - INFO - Use pytorch device_name: mps
+2025-06-20 16:28:14,061 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:28:17,300 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 16:28:17,300 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 16:28:17,386 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 16:28:19,379 - INFO - Use pytorch device_name: mps
+2025-06-20 16:28:19,379 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 16:28:22,207 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 16:28:22,207 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 16:28:22,258 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 16:28:24,053 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:27,953 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:30,672 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:33,388 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:36,208 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:39,125 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:42,120 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:45,159 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:48,353 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:51,562 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:54,634 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:28:57,585 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:29:01,315 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:29:05,025 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:29:08,416 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:29:11,836 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:29:15,651 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 16:29:15,963 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+].
+2025-06-20 16:29:19,567 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+].
+2025-06-20 16:29:22,082 - ERROR - Quota exceeded for InputResponseMappingAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-06-20 16:29:22,949 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+].
+2025-06-20 16:29:25,217 - ERROR - Quota exceeded for AccessibleInteractionDesignerAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-06-20 16:29:26,330 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+].
+2025-06-20 16:29:28,586 - ERROR - Quota exceeded for SemanticUIBlueprintAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-06-20 16:29:29,747 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+].
+2025-06-20 16:29:32,015 - ERROR - Quota exceeded for PrototypeWiringAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-06-20 16:29:33,131 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+].
+2025-06-20 16:29:35,395 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+]
+2025-06-20 17:38:37,152 - INFO - Use pytorch device_name: mps
+2025-06-20 17:38:37,153 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 17:38:40,537 - INFO - RAG vector store initialized with default file.
+2025-06-20 17:38:51,627 - INFO - Use pytorch device_name: mps
+2025-06-20 17:38:51,628 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 17:38:55,366 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 17:38:55,366 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 17:38:55,424 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 17:38:57,837 - INFO - Use pytorch device_name: mps
+2025-06-20 17:38:57,837 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 17:39:00,899 - WARNING - Created a chunk of size 1107, which is longer than the specified 1000
+2025-06-20 17:39:00,899 - WARNING - Created a chunk of size 1139, which is longer than the specified 1000
+2025-06-20 17:39:00,955 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 17:39:02,676 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:06,578 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:09,391 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:12,250 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:12,574 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+].
+2025-06-20 17:39:17,973 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:18,310 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+].
+2025-06-20 17:39:20,577 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+], delay: 9s
+2025-06-20 17:39:29,583 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:29,907 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+].
+2025-06-20 17:39:32,175 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+], delay: 9s
+2025-06-20 17:39:41,180 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:41,529 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+].
+2025-06-20 17:39:43,806 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+], delay: 9s
+2025-06-20 17:39:52,812 - INFO - RAG Query: Best practice for touch input 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 17:39:53,183 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+].
+2025-06-20 17:39:58,397 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+].
+2025-06-20 17:40:00,797 - ERROR - Quota exceeded for InputResponseMappingAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-06-20 17:40:01,795 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+].
+2025-06-20 17:40:04,069 - ERROR - Quota exceeded for AccessibleInteractionDesignerAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-06-20 17:40:05,183 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+].
+2025-06-20 17:40:07,460 - ERROR - Quota exceeded for SemanticUIBlueprintAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-06-20 17:40:08,607 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+].
+2025-06-20 17:40:10,932 - ERROR - Quota exceeded for PrototypeWiringAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-06-20 17:40:12,058 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+].
+2025-06-20 17:40:14,414 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 500
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-06-20 18:05:47,507 - INFO - Use pytorch device_name: mps
+2025-06-20 18:05:47,508 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:05:55,255 - INFO - Use pytorch device_name: mps
+2025-06-20 18:05:55,255 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:05:59,238 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 18:06:00,774 - INFO - RAG vector store initialized with default file.
+2025-06-20 18:06:03,360 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:04,356 - INFO - RAG Result: Tapping 'Start Session' in the Meditation App for Kids leads to navigation to the meditation_screen.
+2025-06-20 18:06:05,760 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:06,665 - INFO - RAG Result: Tapping 'Start Session' in the Meditation App for Kids leads to navigation to the meditation_screen.
+2025-06-20 18:06:06,973 - INFO - Use pytorch device_name: mps
+2025-06-20 18:06:06,973 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:06:07,943 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:08,725 - INFO - RAG Result: Tapping 'Start Session' in the Meditation App for Kids leads to navigation to the meditation_screen.
+2025-06-20 18:06:10,140 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:11,212 - INFO - RAG Result: Navigate to meditation_screen (Mobile app state change)
+2025-06-20 18:06:12,519 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:13,422 - INFO - RAG Result: Navigate to meditation_screen (Mobile app state change)
+2025-06-20 18:06:14,791 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:15,554 - INFO - RAG Result: Tapping 'Start Session' in the Meditation App for Kids leads to navigation to the meditation_screen.
+2025-06-20 18:06:17,016 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:17,838 - INFO - RAG Result: Tapping 'Start Session' in the Meditation App for Kids navigates the user to the meditation_screen.
+2025-06-20 18:06:19,123 - INFO - Use pytorch device_name: mps
+2025-06-20 18:06:19,126 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:06:19,294 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:20,084 - INFO - RAG Result: Navigate to meditation_screen (Mobile app state change)
+2025-06-20 18:06:21,473 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:06:22,110 - INFO - RAG vector store initialized with default file.
+2025-06-20 18:06:22,393 - INFO - RAG Result: Navigate to meditation_screen (Mobile app state change)
+2025-06-20 18:06:22,709 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+].
+2025-06-20 18:06:23,587 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+].
+2025-06-20 18:06:25,035 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+], delay: 9s
+2025-06-20 18:06:25,857 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+], delay: 9s
+2025-06-20 18:06:30,824 - INFO - Use pytorch device_name: mps
+2025-06-20 18:06:30,824 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:06:34,303 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+].
+2025-06-20 18:06:35,127 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+].
+2025-06-20 18:06:36,585 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+], delay: 9s
+2025-06-20 18:06:37,391 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 22
+}
+], delay: 9s
+2025-06-20 18:06:45,874 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+].
+2025-06-20 18:06:46,659 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+].
+2025-06-20 18:06:48,144 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+], delay: 9s
+2025-06-20 18:06:48,934 - WARNING - Quota exceeded, retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+], delay: 9s
+2025-06-20 18:06:57,428 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+].
+2025-06-20 18:06:58,209 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+].
+2025-06-20 18:52:32,112 - INFO - Use pytorch device_name: mps
+2025-06-20 18:52:32,112 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:52:38,739 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 18:52:40,159 - INFO - RAG vector store initialized with default file.
+2025-06-20 18:53:15,192 - INFO - Use pytorch device_name: mps
+2025-06-20 18:53:15,192 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:53:19,876 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 18:53:21,982 - INFO - Use pytorch device_name: mps
+2025-06-20 18:53:21,983 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 18:53:25,255 - INFO - RAG vector store updated with uploaded file.
+2025-06-20 18:53:27,836 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:31,331 - INFO - RAG Result: Here's a breakdown of considerations for the "Tap 'Start Session'" action in a meditation app for kids, based on the provided best practices:
+
+*   **Immediate Feedback:** When the child taps "Start Session," the app should provide immediate feedback (within 100ms). This could be a visual cue like highlighting the button, a subtle animation, or an auditory cue like a gentle chime.
+
+*   **Tap Target Size:** The "Start Session" button must be large enough for small fingers to tap easily. A minimum size of 48x48 pixels is recommended.
+
+*   **Gesture Simplicity:** Tapping is the appropriate and simple gesture for starting the session.
+
+*   **Animation Transitions:** After tapping "Start Session," a smooth transition (e.g., a 300ms fade or slide) to the meditation session screen would enhance the user experience.
+
+*   **Voice Command Support:** Consider allowing the child to start the session with a voice command like "Start Meditation" for accessibility and ease of use.
+2025-06-20 18:53:32,454 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:34,507 - INFO - RAG Result: Here's a breakdown of considerations for the "Tap 'Start Session'" action in a meditation app for kids, based on the provided best practices:
+
+*   **Immediate Feedback:** When the child taps "Start Session," the app should provide immediate feedback (within 100ms). This could be a visual cue like highlighting the button, a gentle animation, or a pleasant sound effect.
+
+*   **Tap Target Size:** The "Start Session" button must be large enough for small fingers to tap easily. A minimum size of 48x48 pixels is recommended.
+
+*   **Gesture Simplicity:** Tapping is the appropriate and simple gesture for starting the session.
+
+*   **Voice Command Support:** Ideally, the app would also allow the child to say "Start Session" to initiate the meditation, making it more accessible.
+
+*   **Animation Transitions:** After tapping "Start Session," a smooth transition (e.g., a 300ms fade) to the meditation screen would enhance the user experience.
+2025-06-20 18:53:35,742 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:37,865 - INFO - RAG Result: Based on the provided context, here's a state for 'Tap 'Start Session'' in a Meditation App for Kids, incorporating best practices for mobile interaction:
+
+**State:**
+
+*   **Immediate Feedback:** Highlight the "Start Session" button on tap (within 100ms). A subtle animation or color change can indicate the tap has been registered. A gentle, positive sound effect (like a chime) could also play.
+*   **Tap Target Size:** Ensure the "Start Session" button is at least 48x48 pixels for easy tapping by children.
+*   **Gesture Simplicity:** A single tap should be sufficient to initiate the meditation session.
+*   **Animation Transitions:** Use a smooth transition (e.g., a 300ms fade or slide) to the next screen (the meditation session itself) after the button is tapped. This makes the transition feel natural and engaging.
+*   **Voice Command Support:** Ideally, the app should also allow the child to say "Start Session" to initiate the meditation, especially useful for accessibility.
+2025-06-20 18:53:39,220 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:41,470 - INFO - RAG Result: Based on the provided context, here's a state for 'Tap 'Start Session'' in a Meditation App for Kids, incorporating best practices for mobile interaction:
+
+*   **Immediate Feedback:** Highlight the "Start Session" button on tap (within 100ms). A subtle animation or color change would work well. Also, a gentle, positive sound effect could play.
+*   **Tap Target Size:** Ensure the "Start Session" button is at least 48x48 pixels for easy tapping by children.
+*   **Gesture Simplicity:** A single tap should be sufficient to initiate the meditation session.
+*   **Animation Transitions:** Use a smooth transition (e.g., a 300ms fade or slide) to the meditation session screen after the "Start Session" button is tapped.
+*   **Voice Command Support:** Ideally, the app should allow the child to say "Start Session" to begin the meditation, offering an alternative input method.
+2025-06-20 18:53:43,028 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:44,873 - INFO - RAG Result: Based on the provided context, here's some interaction behavior guidance for when a user taps "Start Session" in a meditation app for kids:
+
+*   **Immediate Feedback:** Provide visual or auditory feedback within 100ms of the tap. For example, highlight the "Start Session" button on tap or play a gentle, encouraging sound.
+*   **Tap Target Size:** Ensure the "Start Session" button is at least 48x48 pixels for easy tapping, especially for children.
+*   **Gesture Simplicity:** A single tap should be sufficient to start the session.
+*   **Animation Transitions:** Use a smooth transition (e.g., a 300ms fade or slide) to the meditation session screen to create a seamless and engaging experience.
+*   **Voice Command Support:** Consider allowing kids to start a session using voice commands like "Start Meditation" for accessibility and ease of use.
+2025-06-20 18:53:46,341 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:48,690 - INFO - RAG Result: Here's a breakdown of considerations for the "Tap 'Start Session'" action in a meditation app for kids, based on the provided best practices:
+
+*   **Immediate Feedback:** When the child taps "Start Session," the app should provide immediate feedback. This could be a visual cue like highlighting the button or a subtle animation, or an auditory cue like a gentle chime. The feedback should occur within 100ms.
+*   **Tap Target Size:** The "Start Session" button must be large enough for small fingers to easily tap. Aim for a tap target of at least 48x48 pixels.
+*   **Gesture Simplicity:** Tapping is the appropriate and simple gesture for starting a session.
+*   **Voice Command Support:** Ideally, the app would also allow the child to say "Start Session" to initiate the meditation, making it accessible for children who may have difficulty with touch interactions.
+*   **Animation Transitions:** A smooth transition, like a 300ms fade, should be used to transition from the screen with the "Start Session" button to the actual meditation session screen. This makes the experience more engaging.
+2025-06-20 18:53:50,174 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:52,429 - INFO - RAG Result: Based on the provided context, here's a state for 'Tap 'Start Session'' in a Meditation App for Kids, incorporating best practices for mobile interaction:
+
+**State:**
+
+*   **Immediate Feedback:** Highlight the "Start Session" button on tap (within 100ms). A subtle animation or color change can indicate the tap has been registered. A gentle, positive sound effect (like a chime) could also play.
+*   **Tap Target Size:** Ensure the "Start Session" button is at least 48x48 pixels for easy tapping by children.
+*   **Gesture Simplicity:** A single tap should be sufficient to initiate the meditation session.
+*   **Animation Transitions:** Use a smooth transition (e.g., a 300ms fade or slide) to the next screen (the meditation session itself) after the button is tapped. This makes the transition feel natural and engaging.
+*   **Voice Command Support:** Ideally, the app should also allow the child to say "Start Session" to initiate the meditation, especially for accessibility.
+2025-06-20 18:53:54,168 - INFO - RAG Query: State for 'Tap 'Start Session'' in Meditation App for Kids
+2025-06-20 18:53:56,419 - INFO - RAG Result: Based on the provided context, here's a state for 'Tap 'Start Session'' in a Meditation App for Kids, incorporating best practices for mobile interaction:
+
+**State:**
+
+*   **Immediate Feedback:** Highlight the "Start Session" button on tap (within 100ms). A subtle animation or color change can indicate the tap has been registered. A gentle, positive sound effect (like a chime) could also play.
+*   **Tap Target Size:** Ensure the "Start Session" button is at least 48x48 pixels for easy tapping by children.
+*   **Gesture Simplicity:** A single tap should be sufficient to initiate the meditation session.
+*   **Animation Transitions:** Use a smooth transition (e.g., a 300ms fade or slide) to the next screen (the meditation session itself). This makes the transition feel natural and engaging.
+*   **Voice Command Support:** Ideally, the app should also support a voice command like "Start Meditation" to trigger the same action, improving accessibility.
+2025-06-20 18:53:56,785 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+].
+2025-06-20 18:53:59,162 - ERROR - Quota exceeded for Input-Response Mapping Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-06-20 18:54:00,309 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+].
+2025-06-20 18:54:02,667 - ERROR - Quota exceeded for AccessibleInteractionDesignerAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-20 18:54:03,792 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+].
+2025-06-20 18:54:06,068 - ERROR - Quota exceeded for SemanticUIBlueprintAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-06-20 18:54:08,197 - INFO - Generated wiring flow
+2025-06-20 18:54:08,502 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+].
+2025-06-20 18:54:10,860 - ERROR - Quota exceeded for PrototypeWiringAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-06-20 18:54:11,984 - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+].
+2025-06-20 18:54:14,339 - ERROR - Quota exceeded for Prototype Documentation Agent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-06-20 19:17:17,566 - INFO - Use pytorch device_name: mps
+2025-06-20 19:17:17,566 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-20 19:17:21,324 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-20 19:17:21,465 - INFO - RAG vector store initialized with default file.

@@ -1,0 +1,18 @@
+# Core packages
+langchain
+langchain-community
+
+# Google Gemini LLM (via LangChain integration)
+langchain-google-genai
+google-generativeai
+
+# RAG: Vector DB + Embeddings
+faiss-cpu
+sentence-transformers
+huggingface-hub
+
+# Web App
+streamlit
+
+# Env support
+python-dotenv
